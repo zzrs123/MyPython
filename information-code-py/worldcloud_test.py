@@ -10,4 +10,4 @@ wordcloud = WordCloud(width=1000, #图片的宽度
                       font_path='C:\Windows\Fonts\Sitka Banner\msyh.ttc'#指定字体文件，要有这个字体文件，自己随便想用什么字体，就下载一个，然后指定路径就ok了；刚才的字体适用于英文字体，用在中文字体上会报错，所以换了一个中文字体
                       )
 wordcloud.generate(new_words) #分词
-wordcloud.to_file('ylxb2.jpg')#保存到图片
+wordcloud.to_file('wyy.jpg')#保存到图片
