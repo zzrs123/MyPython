@@ -23,7 +23,7 @@
 
 ## wordcloud_test.py
 
-主要是为第三次作业的爬虫+词云做准备，这个程序实现了读取wyy.txt（歌曲《记念》的歌词），然后使用jieba分词输出为一个方块词云（未加图片定制处理）。输出图片为[wyy.jpg]().
+主要是为第三次作业的爬虫+词云做准备，这个程序实现了读取wyy.txt（歌曲《记念》的歌词），然后使用jieba分词输出为一个方块词云（未加图片定制处理）。输出图片为[wyy.jpg](https://github.com/zzrs123/MyPython/blob/main/information-code-py/wyy.jpg).
 
 ## homework3.py
 
