@@ -27,7 +27,7 @@
 
 ## worldcloud_test2.py
 
-
+在worldcloud_test1的基础上引入imageio包，输出规定形状的图片，需要提供一个模板图片[download.png](https://github.com/zzrs123/MyPython/blob/main/information-code-py/download.png),输出为[wyy_pic.jpg](https://github.com/zzrs123/MyPython/blob/main/information-code-py/wyy_pic.jpg)
 
 ## homework3.py
 
