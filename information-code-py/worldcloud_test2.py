@@ -4,7 +4,7 @@ import jieba
 import wordcloud #导入词云模块
 # 处理图片模块
 import imageio
-mk = imageio.imread("download.jpg")
+mk = imageio.imread("download.png")
 w = wordcloud.WordCloud(mask=mk)
 
 w = wordcloud.WordCloud(width=1000,
