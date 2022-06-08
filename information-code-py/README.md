@@ -21,15 +21,32 @@
 - 处理一个json格式的字典类型
 - 并按需求输出对应键位的值
 
-## wordcloud_test1.py
+## 文件夹 spider-learn
 
-主要是为第三次作业的爬虫+词云做准备，这个程序实现了读取wyy.txt（歌曲《记念》的歌词），然后使用jieba分词输出为一个方块词云（未加图片定制处理）。输出图片为[wyy.jpg](https://github.com/zzrs123/MyPython/blob/main/information-code-py/wyy.jpg).
+参考网上的例程，爬取了豆瓣前100的高分电影，输出到json里，利用正则表达式处理数据，并命名为格式相对统一的样式。
 
-## worldcloud_test2.py
+blog是另一个爬虫程序的结果，但是源程序已经不在了。
 
-在worldcloud_test1的基础上引入imageio包，输出规定形状的图片，需要提供一个模板图片[download.png](https://github.com/zzrs123/MyPython/blob/main/information-code-py/download.png),输出为[wyy_pic.jpg](https://github.com/zzrs123/MyPython/blob/main/information-code-py/wyy_pic.jpg)
+## 文件夹 worldcloud-learn
 
-## homework3.py
+主要参考同济子豪兄的github教程：https://github.com/TommyZihao/zihaopython。
 
-为第三次作业python程序，尚不成熟于2022-06-06。
+分两步走，先出词云worldcloud_test1.py，再加上模板定制词云worldcloud_test2.py。
 
+蒙版图片为download.png。词云图片分别为：wyy.jpg，wyy_pic.jpg。
+
+## 文件夹 spider-do
+
+主要是用爬虫爬取我想要的歌词，输出到文件。
+
+实现的是从http://music.163.com/api/song/lyric?1949119429爬取歌曲《记念》的歌词，test1是输出到终端，test2是输出到jinian.txt。
+
+## 文件夹 zhomework3
+
+这个文件夹是我的作业。
+
+主要是就是spider-do和worldcloud-learn两个文件夹的融合。
+
+这一步很简单。
+
+输出就是jinian_pic.jpg和jinian_pics.jpg。
