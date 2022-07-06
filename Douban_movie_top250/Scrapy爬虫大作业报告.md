@@ -258,12 +258,12 @@ scrapy crawl Douban -o movies_info.csv
 
 - 运行过程
 
-  ![image-20220615173906689](C:\Users\shandaiwang\AppData\Roaming\Typora\typora-user-images\image-20220615173906689.png)
+  ![image](https://user-images.githubusercontent.com/81315777/174463442-e9aedf61-bbb2-404f-ae57-488953bb8e03.png)
 
 - 运行结果目录
 
-  ![image-20220615174259753](C:\Users\shandaiwang\AppData\Roaming\Typora\typora-user-images\image-20220615174259753.png)
-
+  ![image](https://user-images.githubusercontent.com/81315777/174463451-b6bc5309-9dc7-4e9f-9e16-e0ec2314f55c.png)
+  
 - 后续处理
 
   由于直接生成了 csv ，为了完成老师的需求，把 csv 转换成 json 吧...
